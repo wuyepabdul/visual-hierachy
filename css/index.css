@@ -1,0 +1,87 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+div h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+h4 {
+  font-size: 1.2rem;
+}
+.top-spacing {
+  margin-top: 1.5rem;
+}
+.spacing {
+  margin: 3rem 4rem;
+}
+.left-pacing {
+  margin-left: 1rem;
+}
+nav {
+  width: 100%;
+  height: 12vh;
+  background-color: rgb(68, 67, 67);
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  width: 85%;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.sub-heading {
+  width: 100%;
+  height: 4rem;
+  background-color: rgb(186, 183, 183);
+}
+
+.grid-display {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: auto 20rem;
+  gap: 1rem;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.item2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.second-grid-display {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1rem;
+}
+.second-item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+.second-item2 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+footer {
+  margin-top: 2rem;
+  height: 50vh;
+  background-color: rgb(121, 116, 116);
+}
